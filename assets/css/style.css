@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: rgb(17, 86, 102);
-  --primary-color-darker: rgb(9, 48, 56);
+  --primary-color: rgb(208, 221, 32);
+  --primary-color-darker: rgb(229, 238, 240);
 }
 
 * {
@@ -21,9 +21,10 @@ body {
 .container {
   max-width: 640px;
   margin: 50px auto;
-  background: #fff;
+  background: rgb(10, 8, 8);
   padding: 20px;
   border-radius: 10px;
+  color: aliceblue;
 }
 
 form input, form label, form button {
@@ -45,7 +46,7 @@ form input:focus {
 form button {
   border: none;
   background: var(--primary-color);
-  color: #fff;
+  color: rgb(17, 15, 15);
   font-size: 18px;
   font-weight: 700;
   height: 50px;
